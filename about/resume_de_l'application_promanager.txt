@@ -1,0 +1,51 @@
+### Résumé de l'application ProManager ###
+
+L'application **ProManager** est un outil de gestion des employés développé en Python utilisant la bibliothèque tkinter pour l'interface graphique.
+    Voici un aperçu des fonctionnalités principales et de la structure de l'application:
+
+#### Fonctionnalités Principales ####
+
+1. **Authentification Utilisateur**
+   - **Login** : Les utilisateurs peuvent se connecter à l'aide d'un nom d'utilisateur et d'un mot de passe. 
+   - **Inscription** : Les utilisateurs peuvent créer un nouveau compte. Si le nom d'utilisateur existe déjà, un message d'erreur est affiché.
+
+2. **Gestion des Employés**
+   - **Ajouter un Employé** : Les utilisateurs peuvent ajouter un nouvel employé en fournissant un ID, un nom, un rôle, le genre et le statut.
+   - **Mettre à Jour un Employé** : Les informations des employés existants peuvent être mises à jour.
+   - **Supprimer un Employé** : Les utilisateurs peuvent supprimer les informations d'un employé.
+   - **Effacer les Champs** : Un bouton pour effacer les champs de saisie est également disponible.
+
+3. **Affichage et Rapports**
+   - **Afficher les Rapports** : Les utilisateurs peuvent visualiser un rapport des employés.
+   - **Exportation des Données** : Les rapports peuvent être exportés sous forme de fichiers texte (.txt) ou PDF (.pdf).
+
+4. **Interface Utilisateur**
+   - **Changement de Mode** : L'application supporte les modes clair et sombre.
+   - **Menu de Navigation** : Un menu de navigation permet d'accéder rapidement aux différentes sections de l'application comme les paramètres, 
+      le profil utilisateur et la section "À propos".
+
+5. **Informations sur l'Application**
+   - **À Propos de Nous** : Une section "À propos de nous" fournit des informations 
+      sur les développeurs et l'objectif de l'application.
+
+#### Composants Techniques ####
+
+- **Bibliothèques Utilisées** :
+  - `tkinter` et `customtkinter` pour l'interface graphique.
+  - `reportlab` pour la génération de fichiers PDF.
+  - `time`, `filedialog`, et d'autres modules standards de Python pour diverses fonctionnalités.
+  
+- **Widgets Principaux** :
+  - `CTkFrame`, `CTkLabel`, `CTkEntry`, `CTkButton`, `CTkComboBox` pour la création des interfaces.
+  - `ttk.Treeview` pour l'affichage des données sous forme de tableau.
+
+- **Gestion des Thèmes** :
+  - L'application propose des thèmes clair et sombre, avec des couleurs personnalisées pour chaque élément de l'interface.
+
+#### Développeurs ####
+
+- **Mohammed Benyamna** et **Davida Berto** sont les développeurs de cette application,
+    qui vise à simplifier la gestion des employés pour les entreprises et les organisations.
+
+En résumé, ProManager est une application robuste et intuitive conçue pour faciliter la gestion des employés, 
+offrant des fonctionnalités complètes allant de l'authentification utilisateur à la génération de rapports détaillés.
